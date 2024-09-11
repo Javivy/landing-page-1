@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/images/logo.png";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
         <div>
           <img src={logo} alt="logo" className="h-10"></img>
         </div>
-        <ul className="flex justify-between gap-3 my-auto font-medium">
+        <ul className="flex justify-between gap-3 my-auto font-medium text-[18px]">
           <li>
             <NavLink
               className={({ isActive, isPending }) =>

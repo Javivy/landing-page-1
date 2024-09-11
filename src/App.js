@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import About from "./components/About";
-import Pricing from "./components/Pricing";
-import Features from "./components/Features";
-import Home from "./components/Home";
+import About from "./components/home/About";
+import Pricing from "./components/home/Pricing";
+import Features from "./components/home/Features";
+import Home from "./components/home/Home";
 
 function App() {
   return (
-    <div className="App font-clashDisplay m-[4rem]">
+    <div className="App font-clashDisplay mx-auto w-[85%] my-[4rem]">
       <Header />
       <Routes>
         <Route path="/" element={<Home />}/>
